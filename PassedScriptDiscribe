@@ -1,0 +1,6 @@
+1. For Flow Moniter:
+   Reasons for packet drop: https://www.nsnam.org/doxygen/group__flow-monitor.html#gac81e6b10f93e4d47d440d1df59b1e6b1
+   Overall for packet drop the reason is varies, for eg TTL,missing route,check sum exceed, queuing overflow;
+   Reasosn for packet loss: in script caculate the last seen time, if the delay is overexceeded, then stop tracking, added as lost packet;
+   
+2.
