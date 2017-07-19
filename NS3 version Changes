@@ -5,3 +5,4 @@ Changes from ns-3.20 to ns-3.21
 2. Command line: AddValue
 3. New feature for reuse frequency in LTE
 
+&&FFR is fractional frequency reuse
