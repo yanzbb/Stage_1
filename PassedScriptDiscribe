@@ -3,4 +3,4 @@
    Overall for packet drop the reason is varies, for eg TTL,missing route,check sum exceed, queuing overflow;
    Reasosn for packet loss: in script caculate the last seen time, if the delay is overexceeded, then stop tracking, added as lost packet;
    
-2.
+2. 
