@@ -1,0 +1,2 @@
+For find a text inside different files: grep -RE 'things need to be found'
+
