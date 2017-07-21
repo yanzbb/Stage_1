@@ -5,6 +5,7 @@ make clean
 qmake NetAnim.pro  (For MAC Users: qmake -spec macx-g++ NetAnim.pro)
 make
 Note: qmake could be "qmake-qt4" in some systems 
+***not working this part****
 
 
 *From Google Group help :
