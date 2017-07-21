@@ -1,0 +1,16 @@
+From Google Group help :
+//netanim xml generation  
+AnimationInterface::SetConstantPosition (ueNodes.Get (0), 10, 10);   
+AnimationInterface::SetConstantPosition (enbNodes.Get (0), 15, 10);   
+AnimationInterface::SetConstantPosition (pgw, 20, 10);   
+AnimationInterface::SetConstantPosition (remoteHost, 25, 10); 
+
+//netanim before the start  
+AnimationInterface anim ("LTE-animation.xml"); // Mandatory  
+anim.EnablePacketMetadata (true); // Optional
+
+
+
+
+Inside script note:
+* NetAnim version is crutial.Careful with it, while inside the xml. file the first line is showing which version is it. 
