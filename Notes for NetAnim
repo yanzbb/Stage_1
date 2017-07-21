@@ -1,4 +1,13 @@
-From Google Group help :
+*The downloaded file has no excute exe; to generate, follow step as:
+(https://www.nsnam.org/wiki/index.php/NetAnim; https://www.nsnam.org/wiki/NetAnim_3.106)
+cd netanim
+make clean
+qmake NetAnim.pro  (For MAC Users: qmake -spec macx-g++ NetAnim.pro)
+make
+Note: qmake could be "qmake-qt4" in some systems 
+
+
+*From Google Group help :
 //netanim xml generation  
 AnimationInterface::SetConstantPosition (ueNodes.Get (0), 10, 10);   
 AnimationInterface::SetConstantPosition (enbNodes.Get (0), 15, 10);   
@@ -12,5 +21,7 @@ anim.EnablePacketMetadata (true); // Optional
 
 
 
-Inside script note:
-* NetAnim version is crutial.Careful with it, while inside the xml. file the first line is showing which version is it. 
+*Inside script note:
+ NetAnim version is crutial.Careful with it, while inside the xml. file the first line is showing which version is it. 
+
+
