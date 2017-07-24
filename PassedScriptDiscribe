@@ -20,3 +20,16 @@ Reasons for inviting LTE inside C2C connection:
    Udp Server : A UDP server, receives UDP packets from a remote host. UDP packets carry a 32bits sequence number followed by a 64bits time stamp in their payloads. The application uses the sequence number to determine if a packet is lost, and the time stamp to compute the delay.
    Application & Socket : Conceptually, an application has zero or more ns3::Socket objects associated with it, that are created using the Socket creation API of the Kernel capability. 
    A socket is an abstract representation (handle) for the local endpoint of a network communication path.
+
+4. For Scenario Background Setting
+   1) create extra file as input configuration; then follow the command line here(https://www.nsnam.org/docs/models/html/lte-user.html#configuration-of-lte-model-parameters)
+   *./waf --command-template="%s --ns3::ConfigStore::Filename=input-defaults.txt --ns3::ConfigStore::Mode=Load --ns3::ConfigStore::FileFormat=RawText" --run src/lte/examples/lte-sim-with-input
+   2) Setting inside script; according to test7.24.cc file
+   3) 
+   
+   
+5. Setting sub channel carriers : https://groups.google.com/forum/#!topic/ns-3-users/U4cGsYu7Pk8
+   
+   
+   
+   
