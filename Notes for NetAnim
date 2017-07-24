@@ -25,4 +25,4 @@ anim.EnablePacketMetadata (true); // Optional
 *Inside script note:
  NetAnim version is crutial.Careful with it, while inside the xml. file the first line is showing which version is it. 
 
-
+::
