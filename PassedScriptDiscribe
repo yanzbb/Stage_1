@@ -30,6 +30,6 @@ Reasons for inviting LTE inside C2C connection:
    
 5. Setting sub channel carriers : https://groups.google.com/forum/#!topic/ns-3-users/U4cGsYu7Pk8
    
-   
+6. View an radio environment map,based on SNR; https://www.nsnam.org/docs/models/html/lte-user.html#radio-environment-maps
    
    
