@@ -1,2 +1,3 @@
 For find a text inside different files: grep -RE 'things need to be found'
 
+To save command window printout into a file, '2>&1'. Example for log file: './waf --run/scratch/lenaFile > logFileName 2>&1'
