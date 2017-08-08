@@ -1,3 +1,7 @@
 For find a text inside different files: grep -RE 'things need to be found'
 
 To save command window printout into a file, '2>&1'. Example for log file: './waf --run/scratch/lenaFile > logFileName 2>&1'
+
+To check the still running program, use 'ps -aux'; then to kill the running program 'kill -9 portNum("36172 eg...)'
+
+To run itetris progam, use 'iCS -c ConfigFileName.xml > IfwannaPutLogIntoAFile.txt'
