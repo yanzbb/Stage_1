@@ -5,3 +5,6 @@ To save command window printout into a file, '2>&1'. Example for log file: './wa
 To check the still running program, use 'ps -aux'; then to kill the running program 'kill -9 portNum("36172 eg...)'
 
 To run itetris progam, use 'iCS -c ConfigFileName.xml > IfwannaPutLogIntoAFile.txt'
+
+ 
+3013441194 DA123456 405745326
