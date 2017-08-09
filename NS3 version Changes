@@ -1,0 +1,8 @@
+Detailed infos in dir: http://code.nsnam.org/ns-3.22/raw-file/7e569f59f476/CHANGES.html
+
+Changes from ns-3.20 to ns-3.21
+1. TCP socket trace source with slow source start
+2. Command line: AddValue
+3. New feature for reuse frequency in LTE
+
+&&FFR is fractional frequency reuse
