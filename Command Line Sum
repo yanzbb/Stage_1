@@ -7,4 +7,4 @@ To check the still running program, use 'ps -aux'; then to kill the running prog
 To run itetris progam, use 'iCS -c ConfigFileName.xml > IfwannaPutLogIntoAFile.txt'
 
  
-3013441194 DA123456 405745326
+3013441194 DA123456 
